@@ -10,7 +10,7 @@ function App() {
   useEffect(() => {
     (async () => {
       // const data = await axios.get('./F-C0032-001.json');
-      const data = await axios.get('https://github.com/MingYuan200/myReact/blob/main/my-react-app1/src/F-C0032-001.json');
+      const data = await axios.get('https://mingyuan200.github.io/my-Weather/json/F-C0032-001.json');
       const { location } = data.data.cwaopendata.dataset;
       console.log(location);
     })
