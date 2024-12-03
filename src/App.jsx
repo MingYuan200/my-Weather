@@ -12,6 +12,7 @@ function App() {
       // const data = await axios.get('./F-C0032-001.json');
       const data = await axios.get('https://mingyuan200.github.io/my-Weather/json/F-C0032-001.json');
       console.log(data);
+
       // const { location } = data.data.cwaopendata.dataset;
       // console.log(location);
     })
@@ -36,7 +37,7 @@ function App() {
                 <p className="p1">2日</p>
                 <p>上午6:00<br />~<br />下午6:00</p>
                 <figure>
-                  <img src="../weathericon/多雲.svg" alt="" /></figure>
+                  <img src="../weathericon/陰有雨.svg" alt="" /></figure>
                 <p>晴時多雲</p>
                 <p><IoUmbrella />10%</p>
                 </div>
@@ -45,7 +46,7 @@ function App() {
                 <p className="p1">2日</p>
                 <p>上午6:00<br />~<br />下午6:00</p>
                 <figure>
-                  <img src="../weathericon/多雲.svg" alt="" /></figure>
+                  <img src="weathericon/多雲.svg" alt="" /></figure>
                 <p>晴時多雲</p>
                 <p><IoUmbrella />10%</p>
                 </div>
@@ -54,7 +55,7 @@ function App() {
                 <p className="p1">2日</p>
                 <p>上午6:00<br />~<br />下午6:00</p>
                 <figure>
-                  <img src="../weathericon/多雲.svg" alt="" /></figure>
+                  <img src="weathericon/多雲時陰.svg" alt="" /></figure>
                 <p>晴時多雲</p>
                 <p><IoUmbrella />10%</p>
                 </div>
@@ -76,7 +77,7 @@ function App() {
                 <p className="p1">2日</p>
                 <p>上午6:00<br />~<br />下午6:00</p>
                 <figure>
-                  <img src="../weathericon/多雲.svg" alt="" /></figure>
+                  <img src="weathericon/多雲.svg" alt="" /></figure>
                 <p>晴時多雲</p>
                 <p><IoUmbrella />10%</p>
                 </div>
@@ -85,7 +86,7 @@ function App() {
                 <p className="p1">2日</p>
                 <p>上午6:00<br />~<br />下午6:00</p>
                 <figure>
-                  <img src="../weathericon/多雲.svg" alt="" /></figure>
+                  <img src="weathericon/多雲時晴.svg" alt="" /></figure>
                 <p>晴時多雲</p>
                 <p><IoUmbrella />10%</p>
                 </div>
@@ -94,7 +95,7 @@ function App() {
                 <p className="p1">2日</p>
                 <p>上午6:00<br />~<br />下午6:00</p>
                 <figure>
-                  <img src="../weathericon/多雲.svg" alt="" /></figure>
+                  <img src="weathericon/多雲.svg" alt="" /></figure>
                 <p>晴時多雲</p>
                 <p><IoUmbrella />10%</p>
                 </div>
