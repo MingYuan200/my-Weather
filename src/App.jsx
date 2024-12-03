@@ -37,7 +37,7 @@ function App() {
                 <p className="p1">2日</p>
                 <p>上午6:00<br />~<br />下午6:00</p>
                 <figure>
-                  <img src="../weathericon/陰有雨.svg" alt="" /></figure>
+                  <img src="weathericon/陰有雨.svg" alt="" /></figure>
                 <p>晴時多雲</p>
                 <p><IoUmbrella />10%</p>
                 </div>
