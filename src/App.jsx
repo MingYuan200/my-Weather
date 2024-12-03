@@ -15,7 +15,7 @@ function App() {
 
       // const { location } = data.data.cwaopendata.dataset;
       // console.log(location);
-    })
+    })()
   }, [])
 
 
